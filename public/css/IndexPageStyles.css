@@ -1,0 +1,28 @@
+
+article{
+    margin:1%;
+    padding: 5px ;
+    border-radius: 10px;
+    text-align: justify;
+    display: inline-block;
+    width:45%;
+}
+h1{
+    margin-top: 35px;
+    font-size: 180%;
+    border-radius: 8px;
+}
+h2{
+    font-size: 80%;
+    font-weight: 600;
+    color: #333;
+}
+article img{
+    width: 100%;
+    object-fit:auto;
+    height:200px;
+    border-radius: 10px;
+}
+article p, .rating{
+    font-size: 80%;
+} 

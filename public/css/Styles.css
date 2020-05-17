@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+    margin:5px 0;
+}
+img.brand{
+    width: 100%;
+    border:0;
+}
+.slogan{
+    position: absolute;
+    font-size: 150%;
+    top:150px;
+    left: 20vw;
+}
+nav {
+    margin-bottom:10px ;
+}
+.signing{
+    display: inline-block;
+    margin:0;
+    width:49%;
+    line-height: 190%;
+    margin-bottom: 10px;
+}
+.search-container input{
+    padding:3px;
+    margin-bottom: 5px;
+}
+.rupee-logo{
+    position: relative;
+    top:-.35rem;
+    font-size: 80%;
+    font-weight: 700;
+}
+.discounted-amount{
+   border-left: 0;;
+   font-size: 140%;
+}
+.original-amount{
+   text-decoration: line-through;
+   font-size: 80%;
+}
+.rating .checked{
+    color:orange;
+}
+.button{
+    display: inline-block;
+    margin:0;
+    width:49%;
+    line-height: 190%;
+    margin-bottom: 10px;
+}
+footer{
+    height:110px;
+}
+footer a{
+    margin: 0 6px;
+}
+
+footer img{
+    width: 45px;
+}
+person a, person a::after{
+    font-weight: 500;
+}
+footer a.termsandconditions{
+    font-size: 70%;
+    border: 0;
+}

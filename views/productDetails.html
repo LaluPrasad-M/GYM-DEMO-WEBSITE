@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Gym</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/css/Styles.css">
+    <link rel="stylesheet" href="../public/css/productDetailsStyles.css">
+    <link rel="stylesheet" href="../public/css/Light_mode_colors.css">
+    <script src="scripts/global.js"></script>
+    <script src="scripts/ShowImageInFullScreen.js"></script>
+  </head>
+<center>
+  <body>
+    <header>
+        <!--h1 class="brand">Gym Name</h1!-->
+        <img class="brand" src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxjMDLophE3pLRdcYzloOdEqiUvzXEYxz0RP939BoPRWT1g1oh&usqp=CAU'>
+        <p class='slogan'>TURN FAT INTO FIT!</p>
+    </header>
+
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Gym Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <hr>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Your Account</a>
+            </li>
+            <hr>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us!</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Report an Issue</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div  class="signing" ><a href="#">Sign In</a></div>
+    <div  class="signing" ><a href="#">Sign Up</a></div>
+
+    <div class="search-container">
+        <form action="#">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+    <hr>
+    <hr>
+
+        <div>
+            <img id="image2" onclick="openFullscreen('image2')"src="data:image/jpeg;base64,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"/>
+        </div>
+        <h2>
+             Skipping-Rope Jump Skipping Rope for Men, Women, Weight Loss, Kids, Girls, Children, Adult - Best in Fitness, Sports
+        </h2>
+        <div class='amount'>
+            <p>M.R.P. :<span class="original-amount"> ₹54,999</span></p>
+            <p>Price :<span class="discounted-amount"> ₹33,999</span></p>
+            <p>You Save ₹21,000 (38%)</p>
+        </div>
+        <div class="rating">
+            Rating: 
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star-half-alt checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+
+        <hr>
+            <div class="form-group"><label for="gender">Quantity: </label>
+            <select name="gender"id="gender"class="form-control-values">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></div>
+        <div><a class="button" href="#">Add to Cart
+            <span class="fa fa-shopping-cart"></span>
+        </a></div>
+        <div><a class="button" href="#">Buy Now
+            <span class="fa fa-play"></span>
+        </a></div>
+        <hr>
+        <hr>
+
+        <h1>Product Details</h1>
+        <table class='table table-stripped'>
+            <tr>
+                <th>Batteries Included</th>
+                <td>No</td>
+            </tr>
+            <tr>
+                <th>Brand</th>
+                <td>Durafit - Sturdy, Stable and Strong</td>
+            </tr>
+            <tr>
+                <th>color</th>
+                <td>black</td>
+            </tr>
+            <tr>
+                <th>Display-Type</th>
+                <td>LCD</td>
+            </tr>
+            <tr>
+                <th>Horsepower</th>
+                <td>2.5 Horsepower</td>
+            </tr>
+            <tr>
+                <th>Style Name</th>
+                <td>Treadmill</td>
+            </tr>
+        </table>
+
+        <div>
+<hr>
+<hr>
+            <h1>Product Description</h1>
+<h2>Durafit Heavy Hike Treadmill
+</h2>
+<h3>Durafit Heavy Hike is structured around active usage, particularly for retirees, diabetics, HIIT users, sprinters, marathon trainers, and regular users, for active everyday usage. It contains 16 levels of auto inclination and speed range 1 to 16 km/hr. Begin to organize and record your fitness measurements by utilizing the LCD computerized screen which shows Time, Speed, Distance, Calories, Pulse. With 2 Loudspeakers and Aux Cable, engage in your favorite music or TV shows, without the irritation of adjusting headphones.
+</h3>
+<h2>Powerful 2.5 HP (5.0 HP Peak) Motor
+<h2>
+<h3>The Powerful 2.5 HP (5.0 HP Peak) Motor newly developed Copper-Mesh Core Technology which delivers high performance at very low noise and electricity consumption.
+</h3>
+<h2>Folding system
+</h2>
+<h3>The hydraulic system at the base of the treadmill ensures that the treadmill can be easily folded and unfolded without any strain, and can be stored in a small space.
+</h3>
+<h2>Preset Programs
+</h2>
+<h3>The treadmill has 48[24 with incline and 24 Without Incline] preset HIIT training programs & Target & Chase modes, that can be chosen by the users working towards weight-loss/maintenance.
+</h3>
+<h2>Running Surface
+</h2>
+<h3>1270*470 mm running surface provides a more comfortable and stable workout experience.
+</h3>
+        </div>
+    <footer>
+        <div>
+            <a target="_blank" href="http://www.twitter.com"     aria-label="Twitter">  <i class="fab fa-twitter fa-2x">    </i></a>
+            <a target="_blank" href="http://www.facebook.com"     aria-label="Facebook">  <i class="fab fa-facebook fa-2x">    </i></a>
+            <a target="_blank" href="http://www.instagram.com"     aria-label="Instagram">  <i class="fab fa-instagram fa-2x">    </i></a>
+        </div>
+
+        <person>
+            <div><a target="_blank" href="#" aria-label="About">About us</a></div>
+            <div><a target="_blank" href="#" aria-label="About">Membership</a></div>
+        </person>
+        <a class="termsandconditions"href="#">Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 2019-2020</a>
+    </footer>
+</body>
+</center>
+</html>

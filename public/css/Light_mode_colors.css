@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right bottom,#fee,#eef);
+}
+.slogan{
+        text-shadow:-2px -2px 4px #f77,2px 2px 4px #77f;
+        color: #ccc;
+}
+h2{
+    color:#000;
+    font-weight: 550;
+}
+nav{
+    background: linear-gradient(to right bottom,#faa,#aaf);
+}
+nav div{
+    background: linear-gradient(to right bottom,#faa,#aaf);
+}
+.signing, .button{
+    background: rgb(245, 233, 233);
+    border: 2px solid rgb(228, 123, 123);
+}
+article{
+    background: #fff;
+}
+footer{
+    background: #c8102e;
+}
+person a, person a::after{
+    color: #fff;
+}
+footer p, footer a{
+   color:#fff;
+}

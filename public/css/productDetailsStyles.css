@@ -1,0 +1,25 @@
+h1{
+    margin-top: 35px;
+    font-size: 180%;
+    border-radius: 8px;
+}
+h2{
+    font-size: 100%;
+    margin: 2% 10%;
+    text-decoration: underline;
+}
+h3{
+    font-size: 80%;
+    text-align: justify;
+    padding: 5%;
+}
+p{
+    margin:2%;
+}
+.rating{
+    margin-top:5%
+}
+.button .fa{
+    padding:7px;
+    float: right;
+}
